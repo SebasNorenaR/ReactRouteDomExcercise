@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom'
 import MainHeader from "../components/MainHeader";
 
-function RootLayput() {
+function RootLayout() {
   return (
     <>
       <MainHeader />
@@ -9,4 +9,4 @@ function RootLayput() {
     </>
   );
 }
-export default RootLayput;
+export default RootLayout;
